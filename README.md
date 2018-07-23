@@ -1,4 +1,4 @@
-# cytofan : An implementation of Fan plots in ggplot2.
+# cytofan : An implementation of Fan plots for cytometry in ggplot2.
 
 cytofan implements the concept of fan plots ([Britton, E.; Fisher, P. & J. Whitley (1998) The Inflation Report Projections: Understanding the Fan Chart](https://www.bankofengland.co.uk/quarterly-bulletin/1998/q1/the-inflation-report-projections-understanding-the-fan-chart)) in ggplot2.
 

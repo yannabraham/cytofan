@@ -1,10 +1,10 @@
-Package: ggfan
+Package: cytofan
 Type: Package
-Title: Plot Fan Plots with ggplot2
+Title: Plot Fan Plots for cytometry data using ggplot2
 Version: 0.1.0
 Authors@R: person("Yann", "Abraham", email = "yann.abraham@gmail.com",
                   role = c("aut", "cre"))
-Description: An implementation of Fan plots in ggplot2. 
+Description: An implementation of Fan plots for cytometry data in ggplot2. 
     For reference see Britton, E.; Fisher, P. & J. Whitley (1998) The Inflation Report Projections: Understanding the Fan Chart 
     <https://www.bankofengland.co.uk/quarterly-bulletin/1998/q1/the-inflation-report-projections-understanding-the-fan-chart>).
 Depends:

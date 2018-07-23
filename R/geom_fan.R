@@ -6,7 +6,7 @@
 #' which corresponds to the median. The center bin corresponds to the strongest shade of `colorbase`,
 #' while other bins get decreasing shades.
 #'
-#' `stat_fan` is suitable only for continuous x data. Moreover, if you have less than `1/step` points
+#' `stat_fan` is suitable only for continuous y data. Moreover, if you have less than `1/step` points
 #' you might need to adjust the `step` parameter.
 #'
 #' @param colorbase the colors to use to draw the ribbon. defaults to RColorBrewer `Oranges`.

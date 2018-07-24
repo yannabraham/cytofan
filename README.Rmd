@@ -1,7 +1,18 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-cytofan
-=======
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# cytofan
 
 [![Travis-CI Build Status](https://travis-ci.org/yannabraham/cytofan.svg?branch=master)](https://travis-ci.org/yannabraham/cytofan)
 
@@ -9,34 +20,23 @@ cytofan
 
 The `cytofan` package was implemented following up on a [gist](https://gist.github.com/yannabraham/6f8474ab32e8eec63c2e) written shortly after the [fanplot](https://cran.r-project.org/web/packages/fanplot/index.html) package was released. Compared to [ggfan](https://cran.r-project.org/web/packages/ggfan/index.html), `cytofan` uses categorical data as input on the x axis.
 
-Installation
-------------
+## Installation
 
 You can install cytofan from github with:
 
-``` r
+```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("yannabraham/cytofan")
 ```
 
-Example
--------
+## Example
 
 `cytofan` can be used to visualize differences between populations identifed using [mass cytometry](http://www.nature.com/nbt/journal/v30/n9/full/nbt.2317.html):
 
-``` r
+```{r example,fig.height=8,fig.width=6,warning=FALSE}
 library(cytofan)
-#> Loading required package: ggplot2
 library(bodenmiller)
 library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
 library(reshape2)
 
 data("refPhenoMat")
@@ -51,5 +51,3 @@ bind_cols(refAnnots,
   geom_fan()+
   facet_grid(Cells~.)
 ```
-
-![](README-example-1.png)

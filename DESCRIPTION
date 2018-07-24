@@ -1,6 +1,6 @@
 Package: cytofan
 Type: Package
-Title: Plot Fan Plots for cytometry data using ggplot2
+Title: Plot Fan Plots for Cytometry Data using ggplot2
 Version: 0.1.0
 Authors@R: person("Yann", "Abraham", email = "yann.abraham@gmail.com",
                   role = c("aut", "cre"))

@@ -70,7 +70,7 @@ which corresponds to the median. The center bin corresponds to the strongest sha
 while other bins get decreasing shades.
 }
 \details{
-`stat_fan` is suitable only for continuous x data. Moreover, if you have less than `1/step` points
+`stat_fan` is suitable only for continuous y data. Moreover, if you have less than `1/step` points
 you might need to adjust the `step` parameter.
 }
 \section{Computed variables}{
@@ -84,9 +84,6 @@ you might need to adjust the `step` parameter.
 }
 
 \examples{
-# load ggplot2
-#library(ggplot2)
-
 # reformat dataset from short-wide to tall-skinny
 EuStockMarkets_ts <- lapply(colnames(EuStockMarkets),function(id) {
   data.frame(id=id,value=as.numeric(EuStockMarkets[,id]))

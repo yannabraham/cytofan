@@ -52,4 +52,4 @@ bind_cols(refAnnots,
   facet_grid(Cells~.)
 ```
 
-![](README-example-1.png)
+![](man/figures/README-example-1.png)

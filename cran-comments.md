@@ -9,9 +9,7 @@
 0 errors | 0 warnings | 1 note
 
  * This is a new release.
- * I'm using a CC license
- * Spell checking raises issues with cytometry (a lab technology), Britton (an author name)
-     and ggplot (!)
+ * Spell checking raises issues with cytometry (a lab technology), Britton (an author name).
 
 ## Reverse dependencies
 

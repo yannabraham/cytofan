@@ -23,5 +23,5 @@ Suggests:
 URL: https://github.com/yannabraham/cytofan
 BugReports: https://github.com/yannabraham/cytofan/issues
 Encoding: UTF-8
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2
 VignetteBuilder: knitr

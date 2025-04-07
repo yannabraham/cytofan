@@ -2,9 +2,21 @@
 % Please edit documentation in R/cytofan-package.R
 \docType{package}
 \name{cytofan}
-\alias{cytofan}
 \alias{cytofan-package}
+\alias{cytofan}
 \title{cytofan: An implementation of Fan plots in ggplot2.}
 \description{
 For reference see \href{https://www.bankofengland.co.uk/quarterly-bulletin/1998/q1/the-inflation-report-projections-understanding-the-fan-chart}{Britton, E.; Fisher, P. & J. Whitley (1998) The Inflation Report Projections: Understanding the Fan Chart}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/yannabraham/cytofan}
+  \item Report bugs at \url{https://github.com/yannabraham/cytofan/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Yann Abraham \email{yann.abraham@gmail.com}
+
 }

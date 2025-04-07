@@ -17,7 +17,7 @@ a data.frame containing
         \item ymin    : the lower limit of the quantile
         \item ymax    : the upper limit of the quantile
         \item id      : an identifier for the quantile
-        \item percent : the fill colorto use in \code{geom_fan}
+        \item percent : the fill color to use in \code{geom_fan}
     }
 }
 \description{

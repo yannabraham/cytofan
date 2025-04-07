@@ -4,3 +4,5 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^\.github$
+^doc$
+^Meta$

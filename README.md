@@ -14,11 +14,10 @@ for cytometry data in ggplot2.
 
 The `cytofan` package was implemented following up on a
 [gist](https://gist.github.com/yannabraham/6f8474ab32e8eec63c2e) written
-shortly after the
-[fanplot](https://cran.r-project.org/web/packages/fanplot/index.html)
+shortly after the [fanplot](https://cran.r-project.org/package=fanplot)
 package was released. Compared to
-[ggfan](https://cran.r-project.org/web/packages/ggfan/index.html),
-`cytofan` uses categorical data as input on the x axis.
+[ggfan](https://cran.r-project.org/package=ggfan), `cytofan` uses
+categorical data as input on the x axis.
 
 ## Installation
 
@@ -32,8 +31,7 @@ devtools::install_github("yannabraham/cytofan")
 ## Example
 
 `cytofan` can be used to visualize differences between populations
-identifed using [mass
-cytometry](http://www.nature.com/nbt/journal/v30/n9/full/nbt.2317.html):
+identifed using [mass cytometry](https://doi.org/10.1038/nbt.2317):
 
 ``` r
 library(cytofan)

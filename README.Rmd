@@ -33,7 +33,7 @@ devtools::install_github("yannabraham/cytofan")
 
 ## Example
 
-`cytofan` can be used to visualize differences between populations identifed using [mass cytometry](http://www.nature.com/nbt/journal/v30/n9/full/nbt.2317.html):
+`cytofan` can be used to visualize differences between populations identifed using [mass cytometry](https://doi.org/10.1038/nbt.2317):
 
 ```{r example,fig.height=8,fig.width=6,warning=FALSE}
 library(cytofan)

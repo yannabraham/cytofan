@@ -3,8 +3,6 @@ pagetitle: "cytofan"
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -15,7 +13,7 @@ knitr::opts_chunk$set(
 
 # cytofan
 
-[![Travis-CI Build Status](https://travis-ci.org/yannabraham/cytofan.svg?branch=master)](https://travis-ci.org/yannabraham/cytofan)
+[![R-CMD-check](https://github.com/yannabraham/cytofan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yannabraham/cytofan/actions/workflows/R-CMD-check.yaml)
 [![CRAN_Release_Badge](http://www.r-pkg.org/badges/version-ago/cytofan)](https://CRAN.R-project.org/package=cytofan)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/cytofan)](https://CRAN.R-project.org/package=cytofan)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3557320.svg)](https://doi.org/10.5281/zenodo.3557320)

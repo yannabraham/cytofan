@@ -1,7 +1,10 @@
 
 # cytofan
 
-[![Travis-CI Build Status](https://travis-ci.org/yannabraham/cytofan.svg?branch=master)](https://travis-ci.org/yannabraham/cytofan) [![CRAN\_Release\_Badge](http://www.r-pkg.org/badges/version-ago/cytofan)](https://CRAN.R-project.org/package=cytofan) [![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/cytofan)](https://CRAN.R-project.org/package=cytofan) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3557320.svg)](https://doi.org/10.5281/zenodo.3557320)
+[![R-CMD-check](https://github.com/yannabraham/cytofan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yannabraham/cytofan/actions/workflows/R-CMD-check.yaml)
+[![CRAN_Release_Badge](http://www.r-pkg.org/badges/version-ago/cytofan)](https://CRAN.R-project.org/package=cytofan)
+[![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/cytofan)](https://CRAN.R-project.org/package=cytofan)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3557320.svg)](https://doi.org/10.5281/zenodo.3557320)
 
 `cytofan` implements the concept of fan plots ([Britton, E.; Fisher, P.
 & J. Whitley (1998) The Inflation Report Projections: Understanding the

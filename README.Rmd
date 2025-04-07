@@ -41,16 +41,16 @@ devtools::install_github("yannabraham/cytofan")
 library(cytofan)
 library(bodenmiller)
 library(dplyr)
-library(reshape2)
+library(tidyr)
 
 data("refPhenoMat")
 data("refAnnots")
 
 bind_cols(refAnnots,
           as.data.frame(refPhenoMat)) %>%
-  melt(.,measure.vars=colnames(refPhenoMat),
-       variable.name='Channel') %>%
   filter(Cells %in% c('cd4+','cd8+','igm+','igm-')) %>%
+  gather("Channel","value",
+         any_of(colnames(refPhenoMat))) %>%
   ggplot(aes(x=Channel,y=value))+
   geom_fan()+
   facet_grid(Cells~.)

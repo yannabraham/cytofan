@@ -37,19 +37,19 @@ library(dplyr)
 #> The following objects are masked from 'package:base':
 #> 
 #>     intersect, setdiff, setequal, union
-library(reshape2)
+library(tidyr)
 
 data("refPhenoMat")
 data("refAnnots")
 
 bind_cols(refAnnots,
           as.data.frame(refPhenoMat)) %>%
-  melt(.,measure.vars=colnames(refPhenoMat),
-       variable.name='Channel') %>%
   filter(Cells %in% c('cd4+','cd8+','igm+','igm-')) %>%
+  gather("Channel","value",
+         any_of(colnames(refPhenoMat))) %>%
   ggplot(aes(x=Channel,y=value))+
   geom_fan()+
   facet_grid(Cells~.)
 ```
 
-![](man/figures/README-example-1.png)
+![](man/figures/README-example-1.png)<!-- -->

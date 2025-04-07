@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 `cytofan` implements the concept of fan plots ([Britton, E.; Fisher, P. & J. Whitley (1998) The Inflation Report Projections: Understanding the Fan Chart](https://www.bankofengland.co.uk/quarterly-bulletin/1998/q1/the-inflation-report-projections-understanding-the-fan-chart)) for cytometry data in ggplot2.
 
-The `cytofan` package was implemented following up on a [gist](https://gist.github.com/yannabraham/6f8474ab32e8eec63c2e) written shortly after the [fanplot](https://cran.r-project.org/web/packages/fanplot/index.html) package was released. Compared to [ggfan](https://cran.r-project.org/web/packages/ggfan/index.html), `cytofan` uses categorical data as input on the x axis.
+The `cytofan` package was implemented following up on a [gist](https://gist.github.com/yannabraham/6f8474ab32e8eec63c2e) written shortly after the [fanplot](https://cran.r-project.org/package=fanplot) package was released. Compared to [ggfan](https://cran.r-project.org/package=ggfan), `cytofan` uses categorical data as input on the x axis.
 
 ## Installation
 

@@ -47,7 +47,7 @@ library(cytofan)
 
 # Visualizing mass cytometry data from the `bodenmiller` package
 
-To illustrate the use of cytofan in the context of cytometry, we will use data published in [Bodenmiller *et al* Nat Biotech 2012](http://www.nature.com/nbt/journal/v30/n9/full/nbt.2317.html). Samples corresponding to untreated cells, stimulated with BCR/FcR-XL, PMA/Ionomycin or vanadate or unstimulated, were downloaded from [CytoBank](http://reports.cytobank.org/105/v2) as FCS files. Data was extracted and normalized using the `arcsinh` function with a cofactor of 5.
+To illustrate the use of cytofan in the context of cytometry, we will use data published in [Bodenmiller *et al* Nat Biotech 2012](https://doi.org/10.1038/nbt.2317). Samples corresponding to untreated cells, stimulated with BCR/FcR-XL, PMA/Ionomycin or vanadate or unstimulated, were downloaded from [CytoBank](https://www.beckman.com/flow-cytometry/software) as FCS files (NB the original data doesn't seem to be available anymore). Data was extracted and normalized using the `arcsinh` function with a cofactor of 5.
 
 ```{r,include=FALSE,echo=FALSE}
 library(bodenmiller)

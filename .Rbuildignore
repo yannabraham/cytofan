@@ -4,5 +4,6 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^\.github$
+^CRAN-SUBMISSION$
 ^doc$
 ^Meta$
